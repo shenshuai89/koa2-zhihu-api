@@ -1,0 +1,28 @@
+{
+  "name": "koa2-zhihu-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "cross-env NODE_ENV=production node app",
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.13.1",
+    "koa-body": "^4.2.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-jwt": "^4.0.1",
+    "koa-parameter": "^3.0.1",
+    "koa-router": "^10.0.0",
+    "koa-static": "^5.0.0",
+    "mongodb": "^3.6.8",
+    "mongoose": "^5.13.2"
+  },
+  "devDependencies": {
+    "cross-env": "^7.0.3",
+    "nodemon": "^2.0.9"
+  }
+}
