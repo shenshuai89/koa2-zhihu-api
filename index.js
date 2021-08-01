@@ -10,6 +10,8 @@ const koaStatic = require('koa-static');
 const routes = require('./routes')
 const {connectionPath} = require('./config')
 
+// 测试webhooks
+
 // 设置静态目录
 app.use(koaStatic(path.join(__dirname, '/public')))
 // 解析 application/json
